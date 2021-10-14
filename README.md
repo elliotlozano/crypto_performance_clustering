@@ -63,13 +63,13 @@ git clone https://github.com/elliotlozano/crypto_performance_clustering.git
 
 The following visuals helped evaluate the union members' portfolios.
 
-![Name](link.png)
+![Explained Variance Ratios](explained_variance_ratios.png)
 `analysis`
 
-![Name](link.png)
+![Finding Optimal k](optimal_k_values.png)
 `analysis`
 
-![Name](link.png)
+![CLuster Analysis](cluster_scatter_plots.png)
 `analysis`
 
 ---
