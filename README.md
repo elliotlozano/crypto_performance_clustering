@@ -16,23 +16,17 @@ This project leverages python 3.7 with the following packages:
 
 * [pandas](https://github.com/pandas-dev/pandas) - For reading data into a DataFrame.
 
-* [matplotlib](https://matplotlib.org/stable/users/index.html) - For embedding plots in the application.
+* [hvplot](https://pypi.org/project/hvplot/) - For embedding interactive plots in the application.
 
-* [numpy](https://github.com/numpy/numpy) - For scientific computing in Python.
+* [pathlib](https://pypi.org/project/pathlib2/) - For object-oriented file paths.
 
-* [os](https://docs.python.org/3/library/os.html) - For providing a portable way of using operating system dependent functionality.
+* [scikit-learn](https://pypi.org/project/scikit-learn/) - A set of python modules for machine learning and data mining.
 
-* [datetime](https://docs.python.org/3/library/datetime.html) - For supplying classes for manipulating dates and times.
+* [KMeans](https://scikit-learn.org/stable/modules/clustering.html#k-means) - An algorithm that clusters data into groups in a way which acheives minimal inertia.
 
-* [json](https://docs.python.org/3/library/json.html) - For data interchange.
+* [PCA](https://scikit-learn.org/stable/modules/unsupervised_reduction.html#pca-principal-component-analysis) - A function for unsupervised dimensionality reduction that looks for a combination of features which sufficiently represent the variance of the original features.
 
-* [requests](https://docs.python-requests.org/en/master/index.html) - For sending HTTP/1.1 requests.
-
-* [dotenv](https://pypi.org/project/python-dotenv/) - For reading key-value pairs from a .env file and setting them as environment variables.
-
-* [alpaca_trade_api](https://alpaca.markets/docs/api-documentation/) - For collecting relevant price data from Alpaca Trade API.
-
-* [pytz](https://pypi.org/project/pytz/) - For accurate timezone calculations.
+* [StandardScaler](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling) - A way to normalize numeric data in a DataFrame.
 
 ---
 
@@ -42,11 +36,9 @@ Before running the application first install the following dependencies:
 
 ```python
   pip install pandas
-  pip install mkdocs
-  pip install numpy
-  pip install requests
-  pip install python-dotenv
-  pip install alpaca-trade-api
+  pip install hvplot
+  pip install pathlib2
+  pip install scikit-learn
 ```
 
 ---
