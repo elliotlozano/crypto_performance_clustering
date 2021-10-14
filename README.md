@@ -64,7 +64,7 @@ git clone https://github.com/elliotlozano/crypto_performance_clustering.git
 The following visuals helped evaluate the union members' portfolios.
 
 ![Explained Variance Ratios](explained_variance_ratios.png)
-`analysis`
+`Principle Component Analysis, or PCA, is a machine learning function that performs dimensionality reduction. It takes several features (columns) from a DataFrame and clusters them into fewer "principle components" that represent the overall variation of the original features. The "expalined variance ratio" measures how much of the original data variance is condensed into the principle components. Using PCA, this program took 7 features from our DataFrame and condensed them into 3 principle components shown in the list, above. These components contained 38.9%, 29.2%, and 20.8% of the original features' variance, respectively. Ultimately, the 3 components collectively represent almost 89% of the original 7 data features' variance!`
 
 ![Finding Optimal k](optimal_k_values.png)
 `analysis`
