@@ -1,12 +1,12 @@
 # Analyzing Cryptocurrency Portfolio Performace via KMeans Clustering
 
-`This projects leverages Python and unsupervised learning techniques to cluster cryptocurrencies by their performance in different time periods.`
+`This project leverages Python and unsupervised learning techniques (KMeans and PCA) to cluster cryptocurrencies by their performance over different time periods.`
 
 ---
 
 ## Description
 
-
+As a fintech professional I want to provide my clients with new ways to diversify their digital asset portfolios. One way to do this is by observing how cryptocurrencies behave in relation to one another throughout time. In this project I analyze a range of cryptocurrencies over different time periods and then cluster them based on their performance in each period. Using Principle Component Analysis (PCA) I'm able to condense several features that describe the assets' behavior into fewer variables that are easier to manage and analyze. Then, using the KMeans algorithm, I am able to generate clusters from the component data and plot them on a graph to visualize how each cryptocurrency behaved overtime, relative to others. With this tool, clients can diversify their crypto portfolios by selecting coins from different clusters, ensuring they are mainting a collection of behaviorally different assets.
 
 ---
 
