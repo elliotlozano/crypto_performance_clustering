@@ -22,9 +22,9 @@ This project leverages python 3.7 with the following packages:
 
 * [scikit-learn](https://pypi.org/project/scikit-learn/) - A set of python modules for machine learning and data mining.
 
-* [KMeans](https://scikit-learn.org/stable/modules/clustering.html#k-means) - An algorithm that clusters data into groups in a way which acheives minimal inertia.
+* [KMeans](https://scikit-learn.org/stable/modules/clustering.html#k-means) - An algorithm that clusters data into groups to decrease the inertia of the dataset.
 
-* [PCA](https://scikit-learn.org/stable/modules/unsupervised_reduction.html#pca-principal-component-analysis) - A function for unsupervised dimensionality reduction that looks for a combination of features which sufficiently represent the variance of the original features.
+* [PCA](https://scikit-learn.org/stable/modules/unsupervised_reduction.html#pca-principal-component-analysis) - For unsupervised dimensionality reduction that generates principle components which sufficiently represent the variance of the various original features.
 
 * [StandardScaler](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling) - A way to normalize numeric data in a DataFrame.
 
@@ -70,7 +70,7 @@ The following visuals helped evaluate the union members' portfolios.
 `The elbow curve is a heuristic that helps determine optimal k, which represents the number of clusters for a dataset. The KMeans algorithm is an unsupervised learning technique in which data is separated into clusters based on their likeness in order to minimize inertia. Inertia is a measurement of the average distance from a centroid for all the datapoints within a cluster. The smaller the inertia, the smaller the spread of data in the cluster, and the more alike each datapoint is. The optimal number of clusters is subjective but it is found at the "elbow" of the curve and is generally acheived when inertia shows minimal change for each additional cluster. In our project, the original data has an elbow at k = 3 or 4, while the PCA data more distinctly shows an optimal k value of 4.`
 
 ![CLuster Analysis](cluster_scatter_plots.png)
-`analysis`
+`By using fewer features through PCA, the KMeans algorithm is able to create more optimal clusters than it did with the original data. In the PCA scatter plot, each cluster has distinct boundaries from one another and an overall decrease in inertia. The orignal data used the same k value of 4, but the clusters were more spread out from their centroids and some were partially overlapped with other clusters. Comparing the scatter plots confirms that using PCA is helpful when analyzing the differences for each cryptocurrency token's behavior. With this information it's possible to diversify an investment portfolio by selecting coins from a range of different clusters.`
 
 ---
 
