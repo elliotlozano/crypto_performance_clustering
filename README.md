@@ -45,7 +45,7 @@ Before running the application first install the following dependencies:
 
 ## Usage
 
-To use the Crypto Performance Clustering aplication:
+To use the Crypto Performance Clustering application:
 
 1. Locally clone the crypto_performance_clustering repository from GitHub using the following link:
 
